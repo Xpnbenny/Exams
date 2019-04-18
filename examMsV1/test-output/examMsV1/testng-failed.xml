@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [examMsV1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="examms.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="ExamApp Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="examms.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- examms.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- ExamApp Test(failed) -->
+</suite> <!-- Failed suite [examMsV1] -->

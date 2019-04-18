@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="examMsV1">
+
+	<listeners>
+		<listener class-name="examms.utilities.Reporting"/>
+	</listeners>
+
+
+	<test name="ExamApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="examms.testCases.TC_LoginTest_001" />
+	<!--  	<class name="examms.testCases.TC_LoginDataDriven_002"/> -->
+		</classes>	
+	</test>
+
+</suite>

@@ -1,0 +1,551 @@
+!SESSION 2019-04-10 09:14:54.340 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Users\vgeorgiev\ExamMs\.metadata\.bak_0.log
+Created Time: 2019-04-10 09:28:28.205
+
+!ENTRY org.testng.eclipse 1 0 2019-04-10 09:28:28.210
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54199 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+java -ea -classpath C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar:C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes:C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes:C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar:C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar:C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 54199 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+
+!ENTRY org.eclipse.recommenders.completion.rcp 4 11 2019-04-10 09:31:58.799
+!MESSAGE Session processor ‘org.eclipse.recommenders.statics.rcp.sessionprocessors.statics’ failed with exception.
+!STACK 0
+java.lang.NoClassDefFoundError: javax/annotation/PostConstruct
+	at org.eclipse.recommenders.internal.rcp.RcpModule$Listener$1.afterInjection(RcpModule.java:278)
+	at com.google.inject.internal.MembersInjectorImpl.notifyListeners(MembersInjectorImpl.java:97)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:95)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:54)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:84)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254)
+	at com.google.inject.internal.FactoryProxy.get(FactoryProxy.java:54)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031)
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40)
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65)
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40)
+	at com.google.inject.internal.SingleParameterInjector.inject(SingleParameterInjector.java:38)
+	at com.google.inject.internal.SingleParameterInjector.getAll(SingleParameterInjector.java:62)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:84)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254)
+	at com.google.inject.internal.InjectorImpl$4$1.call(InjectorImpl.java:978)
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024)
+	at com.google.inject.internal.InjectorImpl$4.get(InjectorImpl.java:974)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1013)
+	at org.eclipse.recommenders.injection.ExtensionFactory.loadExtension(ExtensionFactory.java:50)
+	at org.eclipse.recommenders.injection.ExtensionFactory.create(ExtensionFactory.java:42)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:265)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.recommenders.completion.rcp.processable.SessionProcessorDescriptor.getProcessor(SessionProcessorDescriptor.java:101)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.sessionStarted(IntelligentCompletionProposalComputer.java:116)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:426)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:122)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.lambda$10(ContentAssistant.java:2506)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4795)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2503)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1850)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.access$6(ContentAssistant.java:1841)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.lambda$0(ContentAssistant.java:378)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.testng.eclipse 1 0 2019-04-10 09:32:38.413
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54269 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+java -ea -classpath C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar:C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes:C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes:C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar:C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar:C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 54269 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-04-10 09:36:28.192
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54360 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+java -ea -classpath C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar:C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes:C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes:C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar:C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar:C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 54360 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-04-10 09:36:49.483
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54393 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+java -ea -classpath C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar:C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes:C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes:C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar:C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar:C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 54393 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+
+!ENTRY org.eclipse.ui 4 0 2019-04-10 19:15:35.837
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:4350)
+	at org.eclipse.swt.custom.CTabFolderRenderer.computeSize(CTabFolderRenderer.java:343)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.computeSize(CTabRendering.java:201)
+	at org.eclipse.swt.custom.CTabFolder.setItemSize(CTabFolder.java:2850)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3796)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3729)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2121)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:338)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:3066)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:1036)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1086)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:286)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:148)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:1040)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1086)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3226)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:126)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:286)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:148)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3226)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:1010)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:976)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1188)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1768)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:452)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1668)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:459)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.SetMenu(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setMenuBar(Decorations.java:1059)
+	at org.eclipse.swt.widgets.Menu.releaseParent(Menu.java:943)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:820)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:958)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:886)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:881)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:865)
+	at org.eclipse.ui.internal.WorkbenchWindow$1.handleEvent(WorkbenchWindow.java:334)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:265)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:812)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:408)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:732)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3612)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:300)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3143)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2793)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3556)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$1.handleEvent(IDEWorkbenchAdvisor.java:167)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3156)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2793)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3556)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-10 19:15:36.319
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.NavigationHistory.getDisplay(NavigationHistory.java:179)
+	at org.eclipse.ui.internal.NavigationHistory.markEditor(NavigationHistory.java:196)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActiveEditorSources(WorkbenchPage.java:433)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:5270)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.lambda$0(CompatibilityPart.java:109)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:265)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:812)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:932)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:174)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:731)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1343)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:815)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:408)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:732)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3612)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:300)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3143)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2793)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3556)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$1.handleEvent(IDEWorkbenchAdvisor.java:167)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3156)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2793)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3556)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SESSION 2019-04-16 14:27:50.445 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2019-04-16 14:27:55.605
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [282]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+       org.eclipse.mylyn.commons.xmlrpc [299]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+              org.apache.xmlrpc [71]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:447)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1685)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1627)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1558)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2019-04-16 14:27:55.605
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [284]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.24.2.v20180905-0003"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [282]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+              org.eclipse.mylyn.commons.xmlrpc [299]
+                Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+                     org.apache.xmlrpc [71]
+                       Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:447)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1685)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1627)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1558)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.mylyn.commons.xmlrpc 4 0 2019-04-16 14:27:55.784
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.xmlrpc [299]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [71]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:447)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1685)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1627)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1558)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-16 14:28:28.676
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2019-04-16 14:28:50.185
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2019-04-16 14:28:50.185
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-16 14:29:11.036
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vgeorgiev'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2019-04-16 14:33:25.796
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61110 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
+java -ea -classpath C:\Users\vgeorgiev\eclipse\java-2018-09\eclipse\configuration\org.eclipse.osgi\527\0\.cp\lib\testng-remote.jar:C:\Users\vgeorgiev\ExamMs\examMsV1\target\test-classes:C:\Users\vgeorgiev\ExamMs\examMsV1\target\classes:C:\Users\vgeorgiev\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar:C:\Users\vgeorgiev\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar:C:\Users\vgeorgiev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar:C:\Users\vgeorgiev\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\vgeorgiev\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\vgeorgiev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\vgeorgiev\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\vgeorgiev\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\vgeorgiev\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\vgeorgiev\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar:C:\Users\vgeorgiev\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar:C:\Users\vgeorgiev\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\vgeorgiev\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\vgeorgiev\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\vgeorgiev\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\vgeorgiev\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\vgeorgiev\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar:C:\Users\vgeorgiev\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\vgeorgiev\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar:C:\Users\vgeorgiev\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\vgeorgiev\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar:C:\Users\vgeorgiev\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar:C:\Users\vgeorgiev\.m2\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar:C:\Users\vgeorgiev\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 61110 -protocol json -d C:\Users\vgeorgiev\ExamMs\examMsV1\test-output C:\Users\vgeorgiev\ExamMs\examMsV1\TestNG.xml
