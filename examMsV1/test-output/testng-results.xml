@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-16T11:33:26Z" name="examMsV1" finished-at="2019-04-16T11:33:33Z" duration-ms="6805">
+  <suite started-at="2019-04-18T10:48:44Z" name="examMsV1" finished-at="2019-04-18T10:48:51Z" duration-ms="7015">
     <groups>
     </groups>
-    <test started-at="2019-04-16T11:33:26Z" name="ExamApp Test" finished-at="2019-04-16T11:33:33Z" duration-ms="6805">
+    <test started-at="2019-04-18T10:48:44Z" name="ExamApp Test" finished-at="2019-04-18T10:48:51Z" duration-ms="7015">
       <class name="examms.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:examms.testCases.TC_LoginTest_001@fa36558]" started-at="2019-04-16T11:33:27Z" name="setup" finished-at="2019-04-16T11:33:31Z" duration-ms="4420" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:examms.testCases.TC_LoginTest_001@fa36558]" started-at="2019-04-18T10:48:45Z" name="setup" finished-at="2019-04-18T10:48:49Z" duration-ms="4719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:examms.testCases.TC_LoginTest_001@fa36558]" started-at="2019-04-16T11:33:31Z" name="loginTest" finished-at="2019-04-16T11:33:32Z" duration-ms="1353" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:examms.testCases.TC_LoginTest_001@fa36558]" started-at="2019-04-18T10:48:49Z" name="loginTest" finished-at="2019-04-18T10:48:51Z" duration-ms="1301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:examms.testCases.TC_LoginTest_001@fa36558]" started-at="2019-04-16T11:33:32Z" name="tearDown" finished-at="2019-04-16T11:33:33Z" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:examms.testCases.TC_LoginTest_001@fa36558]" started-at="2019-04-18T10:48:51Z" name="tearDown" finished-at="2019-04-18T10:48:51Z" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -152,3 +152,8 @@
 2019-04-16 14:33:31,771 [main] INFO examms - Entered password
 2019-04-16 14:33:31,862 [main] INFO examms - Clicked <Sign In> 
 2019-04-16 14:33:32,885 [main] INFO examms - Login test passed
+2019-04-18 13:48:49,944 [main] INFO examms - URL is opened
+2019-04-18 13:48:50,058 [main] INFO examms - Entered username
+2019-04-18 13:48:50,141 [main] INFO examms - Entered password
+2019-04-18 13:48:50,221 [main] INFO examms - Clicked <Sign In> 
+2019-04-18 13:48:51,239 [main] INFO examms - Login test passed
